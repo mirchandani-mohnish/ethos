@@ -5,6 +5,11 @@
   License: https://bootstrapmade.com/license/
 */
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -16,7 +21,7 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #9840B2;
   transition: 0.5s;
 }
 
@@ -72,7 +77,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #9840B2;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -114,7 +119,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #9840B2;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -175,7 +180,8 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  /* color: #9840B2; */
+  color: #9840B2;
 }
 
 #header #logo h1 a,
@@ -186,7 +192,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -255,8 +261,12 @@ h6 {
 /* Nav Meu Container */
 
 #nav-menu-container {
-  float: right;
-  margin: 0;
+  /* float: center; */
+  display: flex;
+  justify-content: center;
+
+  /* border: red dashed 2px; */
+  /* margin: auto; */
 }
 
 /* Nav Meu Styling */
@@ -288,7 +298,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: #9840B2;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -302,10 +312,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f82249;
+  background: #9840B2;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #9840B2;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -346,7 +356,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f82249;
+  background: #9840B2;
   color: #fff;
 }
 
@@ -413,7 +423,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: #9840B2;
 }
 
 #mobile-nav ul li li {
@@ -430,11 +440,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f82249;
+  color: #9840B2;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #f82249;
+  color: #9840B2;
 }
 
 #mobile-body-overly {
@@ -478,6 +488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro:before {
   content: "";
   background: rgba(6, 12, 34, 0.8);
+  /* background: rgba(242, 242, 242, 0.5); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -517,7 +528,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f82249;
+  color: #9840B2;
 }
 
 #intro p {
@@ -529,7 +540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#9840B2 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -576,7 +587,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid #9840B2;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -614,11 +625,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #9840B2;
 }
 
 #intro .about-btn:hover {
-  background: #f82249;
+  background: #9840B2;
   color: #fff;
 }
 
@@ -742,7 +753,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #f82249;
+  color: #9840B2;
 }
 
 #speakers .speaker:hover .details {
@@ -777,7 +788,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #f82249;
+  background: #9840B2;
   color: #fff;
 }
 
@@ -822,7 +833,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
+  background-color: #9840B2;
   color: #fff;
 }
 
@@ -995,7 +1006,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels a:hover {
-  color: #f82249;
+  color: #9840B2;
 }
 
 #hotels .stars {
@@ -1045,7 +1056,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .owl-dot.active {
-  background-color: #f82249;
+  background-color: #9840B2;
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
@@ -1053,7 +1064,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-carousel .center {
-  border: 6px solid #f82249;
+  border: 6px solid #9840B2;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
@@ -1142,7 +1153,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: #f82249;
+  color: #9840B2;
 }
 
 #faq #faq-list a.collapsed {
@@ -1195,7 +1206,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #f82249;
+  background: #9840B2;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1255,7 +1266,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #9840B2;
   border: 0;
   color: #fff;
 }
@@ -1274,7 +1285,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #9840B2;
   border: 0;
   color: #fff;
 }
@@ -1300,7 +1311,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #f82249;
+  color: #9840B2;
 }
 
 #contact .contact-info address,
@@ -1322,7 +1333,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #f82249;
+  color: #9840B2;
 }
 
 #contact .contact-address,
@@ -1332,8 +1343,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #f82249;
-  border: 1px solid #f82249;
+  color: #9840B2;
+  border: 1px solid #9840B2;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1374,7 +1385,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #f82249;
+  background: #9840B2;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1446,7 +1457,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f82249;
+  background: #9840B2;
   color: #fff;
 }
 
@@ -1457,7 +1468,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f82249;
+  border-bottom: 2px solid #9840B2;
 }
 
 #footer .footer-top .footer-links {
@@ -1472,7 +1483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f82249;
+  color: #9840B2;
   font-size: 18px;
 }
 
@@ -1490,7 +1501,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f82249;
+  color: #9840B2;
 }
 
 #footer .footer-top .footer-contact {
@@ -1512,7 +1523,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #f82249;
+  background: #9840B2;
   border: 0;
   width: 35%;
   padding: 6px 0;
