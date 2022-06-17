@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>TheEvent - Bootstrap Event Template</title>
+    <title>Ethos</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -53,11 +53,11 @@
           <ul class="nav-menu">
             <li class="menu-active"><a href="#intro">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#speakers">Events</a></li>
             <li><a href="#schedule">Schedule</a></li>
             <!-- <li><a href="#venue">Venue</a></li> -->
-            <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
-            <li><a href="#hotels">Hotels</a></li>
+            <!-- <li class="buy-tickets"><a href="#buy-tickets">All Events</a></li> -->
+
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#supporters">Sponsors</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -171,13 +171,6 @@
           sphere.rotation.y += 0.5 * (targetX - sphere.rotation.y);
           sphere.rotation.x += 0.05 * (targetY - sphere.rotation.x);
           // sphere.position.z += -0.05 * (targetY - sphere.rotation.x);
-          zVal += growthModulator;
-          if (zVal >= sphereSize) {
-            growthModulator = -growthModulator;
-          } else if (zVal <= 0) {
-            growthModulator = -growthModulator;
-          }
-          sphere.position.setZ(zVal);
 
           // Update Orbital Controls
           // controls.update()
@@ -209,23 +202,40 @@
       <section id="about">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
-              <h2>About The Event</h2>
+            <div class="col-lg-12">
+              <h2>About Ethos</h2>
               <p>
-                Sed nam ut dolor qui repellendus iusto odit. Possimus inventore
-                eveniet accusamus error amet eius aut accusantium et. Non odit
-                consequatur repudiandae sequi ea odio molestiae. Enim possimus
-                sunt inventore in est ut optio sequi unde.
+                ETHOS, by the School of Arts and Sciences, Ahmedabad University,
+                is a student festival designed to engage, experience, and
+                contribute to the values of the School of Arts and Sciences. The
+                fest wholeheartedly embodies the interdisciplinary spirit of
+                Ahmedabad University by organizing intellectual events, hands-on
+                workshops, and collaborative and action-packed events followed
+                by cultural celebrations to promote the intersection of science
+                and culture, learning and fun. It brings together students from
+                all across the country on a platform to compete, collaborate,
+                and re-create Ahmedabad University's multidisciplinary ethos.
+                <br />
+                <br />
+                The year 2022 is the beginning of the legacy of ETHOS, and we
+                expect huge numbers to be a part of it and witness the making of
+                a youth community that facilitates collaborative innovation and
+                leadership among students by engaging them in multidisciplinary
+                learning and brewing the most fascinating fest that this year
+                has yet to see. These three days of ETHOS are meant to cast a
+                spell on you that will not only keep you wanting more, but also
+                give you a lifetime's worth of experiences, knowledge, and
+                bonds.
               </p>
             </div>
-            <div class="col-lg-3">
+            <!-- <div class="col-lg-3">
               <h3>Where</h3>
               <p>Downtown Conference Center, New York</p>
             </div>
             <div class="col-lg-3">
               <h3>When</h3>
               <p>Monday to Wednesday<br />10-12 December</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -236,8 +246,8 @@
       <section id="speakers" class="wow fadeInUp">
         <div class="container">
           <div class="section-header">
-            <h2>Event Speakers</h2>
-            <p>Here are some of our speakers</p>
+            <h2>Events</h2>
+            <p>Register Now!</p>
           </div>
           <canvas class="webgl"></canvas>
 
@@ -245,76 +255,46 @@
             <div class="col-lg-4 col-md-6">
               <div class="speaker">
                 <img
-                  src="img/speakers/1.jpg"
-                  alt="Speaker 1"
+                  src="img/events/7.png"
+                  alt="The Mystery Room"
                   class="img-fluid"
                 />
                 <div class="details">
-                  <h3><a href="speaker-details.html">Brenden Legros</a></h3>
-                  <p>Quas alias incidunt</p>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <h3><a href="speaker-details.html">Mystery Room</a></h3>
+                  <p>The art of escaping!</p>
+                  <div class="social"></div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="speaker">
-                <img
-                  src="img/speakers/2.jpg"
-                  alt="Speaker 2"
-                  class="img-fluid"
-                />
+                <img src="img/events/6.png" alt="Speaker 2" class="img-fluid" />
                 <div class="details">
-                  <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
+                  <h3><a href="speaker-details.html">Student Sansad</a></h3>
                   <p>Consequuntur odio aut</p>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <div class="social"></div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="speaker">
-                <img
-                  src="img/speakers/3.jpg"
-                  alt="Speaker 3"
-                  class="img-fluid"
-                />
+                <img src="img/events/5.png" alt="Speaker 3" class="img-fluid" />
                 <div class="details">
-                  <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
+                  <h3><a href="events/heritage-walk.html">Heritage Walk</a></h3>
                   <p>Fugiat laborum et</p>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <div class="social"></div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="speaker">
-                <img
-                  src="img/speakers/4.jpg"
-                  alt="Speaker 4"
-                  class="img-fluid"
-                />
+                <img src="img/events/4.png" alt="Speaker 4" class="img-fluid" />
                 <div class="details">
-                  <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
+                  <h3>
+                    <a href="speaker-details.html">The Slum Revolution</a>
+                  </h3>
                   <p>Debitis iure vero</p>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <div class="social"></div>
                 </div>
               </div>
             </div>
@@ -328,6 +308,120 @@
                 <div class="details">
                   <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
                   <p>Qui molestiae natus</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/6.jpg"
+                  alt="Speaker 6"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                  <p>Non autem dicta</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/6.jpg"
+                  alt="Speaker 6"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                  <p>Non autem dicta</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/6.jpg"
+                  alt="Speaker 6"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                  <p>Non autem dicta</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/6.jpg"
+                  alt="Speaker 6"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                  <p>Non autem dicta</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/6.jpg"
+                  alt="Speaker 6"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                  <p>Non autem dicta</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/6.jpg"
+                  alt="Speaker 6"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                  <p>Non autem dicta</p>
                   <div class="social">
                     <a href=""><i class="fa fa-twitter"></i></a>
                     <a href=""><i class="fa fa-facebook"></i></a>
@@ -420,7 +514,7 @@
                 <div class="col-md-2"><time>10:00 AM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/1.jpg" alt="Brenden Legros" />
+                    <img src="img/icons/1.svg" alt="Brenden Legros" />
                   </div>
                   <h4>Keynote <span>Brenden Legros</span></h4>
                   <p>Facere provident incidunt quos voluptas.</p>
@@ -431,7 +525,7 @@
                 <div class="col-md-2"><time>11:00 AM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/2.jpg" alt="Hubert Hirthe" />
+                    <img src="img/icons/2.svg" alt="Hubert Hirthe" />
                   </div>
                   <h4>
                     Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span>
@@ -447,7 +541,7 @@
                 <div class="col-md-2"><time>12:00 AM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/3.jpg" alt="Cole Emmerich" />
+                    <img src="img/icons/3.svg" alt="Cole Emmerich" />
                   </div>
                   <h4>
                     Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span>
@@ -463,7 +557,7 @@
                 <div class="col-md-2"><time>02:00 PM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/4.jpg" alt="Jack Christiansen" />
+                    <img src="img/icons/4.svg" alt="Jack Christiansen" />
                   </div>
                   <h4>
                     Qui non qui vel amet culpa sequi.
@@ -477,7 +571,7 @@
                 <div class="col-md-2"><time>03:00 PM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/5.jpg" alt="Alejandrin Littel" />
+                    <img src="img/icons/5.svg" alt="Alejandrin Littel" />
                   </div>
                   <h4>
                     Quos ratione neque expedita asperiores.
@@ -493,7 +587,7 @@
                 <div class="col-md-2"><time>04:00 PM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/6.jpg" alt="Willow Trantow" />
+                    <img src="img/icons/6.svg" alt="Willow Trantow" />
                   </div>
                   <h4>
                     Quo qui praesentium nesciunt <span>Willow Trantow</span>
@@ -513,7 +607,7 @@
                 <div class="col-md-2"><time>10:00 AM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/1.jpg" alt="Brenden Legros" />
+                    <img src="img/icons/1.svg" alt="Brenden Legros" />
                   </div>
                   <h4>
                     Libero corrupti explicabo itaque.
@@ -527,7 +621,7 @@
                 <div class="col-md-2"><time>11:00 AM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/2.jpg" alt="Hubert Hirthe" />
+                    <img src="img/icons/2.svg" alt="Hubert Hirthe" />
                   </div>
                   <h4>
                     Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span>
@@ -543,7 +637,7 @@
                 <div class="col-md-2"><time>12:00 AM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/3.jpg" alt="Cole Emmerich" />
+                    <img src="img/icons/3.svg" alt="Cole Emmerich" />
                   </div>
                   <h4>
                     Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span>
@@ -559,7 +653,7 @@
                 <div class="col-md-2"><time>02:00 PM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/4.jpg" alt="Jack Christiansen" />
+                    <img src="img/icons/4.svg" alt="Jack Christiansen" />
                   </div>
                   <h4>
                     Qui non qui vel amet culpa sequi.
@@ -573,7 +667,7 @@
                 <div class="col-md-2"><time>03:00 PM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/5.jpg" alt="Alejandrin Littel" />
+                    <img src="img/icons/5.svg" alt="Alejandrin Littel" />
                   </div>
                   <h4>
                     Quos ratione neque expedita asperiores.
@@ -589,7 +683,7 @@
                 <div class="col-md-2"><time>04:00 PM</time></div>
                 <div class="col-md-10">
                   <div class="speaker">
-                    <img src="img/speakers/6.jpg" alt="Willow Trantow" />
+                    <img src="img/icons/6.svg" alt="Willow Trantow" />
                   </div>
                   <h4>
                     Quo qui praesentium nesciunt <span>Willow Trantow</span>
@@ -705,7 +799,7 @@
       <!--==========================
       Venue Section
     ============================-->
-      <section id="venue" class="wow fadeInUp">
+      <!-- <section id="venue" class="wow fadeInUp">
         <div class="container-fluid">
           <div class="section-header">
             <h2>Event Venue</h2>
@@ -837,12 +931,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!--==========================
       Hotels Section
     ============================-->
-      <section id="hotels" class="section-with-bg wow fadeInUp">
+      <!-- <section id="hotels" class="section-with-bg wow fadeInUp">
         <div class="container">
           <div class="section-header">
             <h2>Hotels</h2>
@@ -901,7 +995,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!--==========================
       Gallery Section
