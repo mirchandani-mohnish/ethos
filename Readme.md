@@ -13,3 +13,11 @@ The year 2022 is the beginning of the legacy of ETHOS, and we expect huge number
 - HTML
 - CSS
 - Javascript
+
+### Todo
+
+- Ethos Jalsa:
+  - Content update - to be received
+- fast-and-curious
+  - Poster not in folder
+-
