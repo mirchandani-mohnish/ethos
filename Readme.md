@@ -20,4 +20,6 @@ The year 2022 is the beginning of the legacy of ETHOS, and we expect huge number
   - Content update - to be received
 - fast-and-curious
   - Poster not in folder
--
+- Instagram and form link to be updated everywhere
+- Svgs not showing qr codes
+- Footer Content Needs to be updated everywhere
