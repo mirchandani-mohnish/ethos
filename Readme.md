@@ -25,3 +25,4 @@ The year 2022 is the beginning of the legacy of ETHOS, and we expect huge number
 - Footer Content Needs to be updated everywhere
 - Shaam Mastaani
   - Content to be updated
+- Contacts to be updated in individual event pages
